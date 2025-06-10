@@ -19,11 +19,183 @@
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
-
+ <BODY BGCOLOR="SILVER" TEXT="BLACK">
 </head> 
 
 <body>    
 
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .box {
+      width: 500px;
+      height: 200px;
+     background-color: green;
+      text-align: center;
+      line-height: 200px;
+      color: white;
+      font-weight: bold;
+    }
+    .photo {
+      width: 400px;
+      height: 200px;
+    }
+
+.cuadro {
+  width: 200px; /* Ancho del cuadro */
+  height: 150px; /* Altura del cuadro */
+  padding: 10px; /* Espacio interno para el texto */
+  border: 1px solid #ccc; /* Borde del cuadro */
+  margin: 10px; /* Espacio entre cuadros */
+  display: inline-block; /* Permite que los cuadros se dispongan en fila */
+  text-align: center; /* Centra el texto horizontalmente */
+  vertical-align: top; /* Alinea los elementos verticalmente */
+  justify-content: space-between;
+   align-items: center;
+}
+
+/* Estilos para cada cuadro */
+.cuadro-rojo {
+  background-color: #ff0000; /* Rojo */
+  color: white; /* Texto blanco */
+   justify-content: space-between;
+      align-items: center;
+}
+
+.cuadro-verde {
+  background-color: #00ff00; /* Verde */
+  color: black; /* Texto negro */
+   
+}
+
+.cuadro-azul {
+  background-color: #0000ff; /* Azul */
+  color: white; /* Texto blanco */
+   
+}
+
+.cuadro-amarillo {
+  background-color: #ffff00; /* Amarillo */
+  color: black; /* Texto negro */
+  
+}
+
+
+.cuadro-salmon {
+  background-color:#FA8072; /* Olivo */
+  color: white; /* Texto blanco */
+  float: right;
+}
+
+.cuadro-olivo {
+  background-color:#808000; /* Olivo */
+  color: black; /* Texto negro */
+  float: right;
+}
+.cuadro a {
+  color: inherit; /* El color del texto será el color de fondo del cuadro */
+  text-decoration: none; /* Eliminar el subrayado del enlace */
+}
+
+.cuadro a:hover {
+  text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+        .centrado {
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px; /* Puedes ajustar el tamaño según tus necesidades */
+        }
+
+
+
+        function search() {
+            const query = document.getElementById('searchQuery').value;
+            if (query) {
+                const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+                window.open(url, '_blank');
+            } else {
+                alert('Por favor, escribe algo para buscar.');
+            }
+    .container {
+      display: flex;
+      justify-content: space-between; /* Espaciado uniforme entre cuadros */
+      align-items: center; /* Alineación vertical */
+      margin: 20px;
+    }
+    .box {
+      width: 500px;
+      height: 200px;
+      background-color: #4CAF50; /* Color verde */
+      margin: 10px;
+      text-align: center;
+      line-height: 100px; /* Centrar texto verticalmente */
+      color: white;
+      font-weight: bold;
+      border-radius: 8px; /* Bordes redondeados */
+      font-size: 35px;
+    }
+  </style>
+
+<body>
+  </div>
+     <div class="container">
+    <img class="photo" src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\juegos de mesa.jpg" alt="Foto de ejemplo">
+
+ <img class="photo" src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\Serpientes y escaleras.jpg" alt="Foto de ejemplo">
+
+
+  <div class="cuadro cuadro-olivo">
+    <h2>Comprar juego</h2>
+    <a href="https://www.mercadolibre.com.mx/serpientes-y-escaleras-juego-de-mesa-juegos-clasicos/p/MLM44238908#polycard_client=search-nordic&searchVariation=MLM44238908&wid=MLM2245647725&position=11&search_layout=grid&type=product&tracking_id=39681601-35b3-401e-a60f-a8fd47a81879&sid=search">Enlace </a>
+  </div>
+
+   <div class="anuncio">
+        <img src="C:\Users\antonio\OneDrive\Pictures\Documents\Pactica tix\Imagenes\Uno no mercy.jpg" alt="Producto">
+        <h1>¡Oferta Especial!</h1>
+        <p>Compra ahora y obtén un 20% de descuento en todos nuestros productos. ¡No te lo pierdas!</p>
+        <a href="#">Comprar Ahora</a>
+
+  </div>
+  <style>
+    .cuadro-texto {
+      width: 700px; /* Ancho del cuadro */
+      height: 150px; /* Alto del cuadro */
+      border: 2px solid #4CAF50; /* Color y grosor del borde */
+      padding: 10px; /* Espaciado interno */
+      overflow-y: scroll; /* Barra de desplazamiento vertical */
+      background-color: #f9f9f9; /* Color de fondo */
+      border-radius: 5px; /* Bordes redondeados (opcional) */
+    }
+  </style>
+  </div>
+ <h3>Reglas del juego Serpientes y escaleras</h3>
+  <div class="cuadro-texto">
+•  Objetivo: Ser el primer jugador en llegar a la casilla final del tablero.
+•  Turnos: Cada jugador lanza un dado y avanza su ficha según el número obtenido.
+•  Escaleras: Si un jugador cae en una casilla con el inicio de una escalera, sube automáticamente hasta la casilla superior conectada.
+•  Serpientes: Si cae en la cabeza de una serpiente, desciende hasta la casilla donde termina su cola.
+•  Ganador: El primero en alcanzar la última casilla gana la partida.
+
+
+  </div>
+  </div>
+ <div class="container">
+  <div class="cuadro cuadro-azul">
+    <h2>Origen del Juego</h2>
+    <a href="https://es.wikipedia.org/wiki/Serpientes_y_escaleras">Enlace</a>
+
+ </div>
+  <div class="cuadro cuadro-salmon">
+    <h2>Inicio</h2>
+    <a href="file:///C:/Users/antonio/OneDrive/Pictures/Documents/Pactica%20tix/index.HTLM.HTML">Enlace</a>
+ </div>
+
+  <div class="container">
+    <div class="box">Juegos de mesa</div>
+  </div>
 
 
 </body>
